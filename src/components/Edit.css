@@ -1,0 +1,56 @@
+.task-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+.todo-task {
+  background-color: #2D3142;
+  color: #D8D5DB;
+  width: 40%;
+  margin: 5px;
+  height: 40px;
+  box-shadow: #2D3142 0px 1px 4px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.on-edit{
+  box-shadow: #B0D7FF 0px 0px 2px !important;
+}
+
+.buttons {
+  border: none;
+  border-radius: 10px;
+  margin: 2px;
+  height: 25px;
+  background-color: #2D3142;
+  color: #D8D5DB;
+  box-shadow: #2D3142 0px 1px 4px;
+
+}
+
+.delete {
+  border: none;
+  background-color: #ff6961;
+  margin-right: 5px;
+  box-shadow: #ff6961 0px 1px 3px;
+
+}
+
+.edit {
+  border: none;
+  background-color: #fdfd96;
+  box-shadow: #fdfd96 0px 1px 3px;
+}
+
+.check {
+  margin: 5px;
+}

@@ -1,0 +1,38 @@
+body{
+  background-color:#B0D7FF ;
+
+  
+}
+
+header{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#2D3142 ;
+  color: #D8D5DB;
+  height: 100px;
+  box-shadow: #2D3142 0px 1px 4px;
+  
+}
+
+.add{
+  margin: 60px;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.buttons{
+  border: none;
+  border-radius: 10px;
+  margin: 2px;
+  height: 25px;
+  background-color: #2D3142 ;
+  color: #D8D5DB;
+  box-shadow: #2D3142 0px 1px 4px;
+  
+}
+
+
+
